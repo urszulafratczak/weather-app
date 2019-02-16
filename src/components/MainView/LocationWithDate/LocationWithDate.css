@@ -1,0 +1,12 @@
+.location-date-cmp {
+    flex-grow: 1;
+    padding: 15px;
+}
+
+div#city {
+    font-size: 3em;
+}
+
+div#date {
+    font-size: 1.5em;
+}
