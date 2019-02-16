@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import MainView from '../MainView/MainView';
+import ForecastView from '../ForecastView/ForecastView';
+
 import './Dashboard.css';
 
 class Dashboard extends Component {
@@ -7,6 +9,7 @@ class Dashboard extends Component {
     return (
       <div className="dashboard">
         <MainView/>
+        <ForecastView/>
       </div>
     );
   }

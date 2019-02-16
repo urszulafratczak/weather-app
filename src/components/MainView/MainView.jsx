@@ -19,7 +19,7 @@ class MainView extends Component {
   render() {
     const { city, date, temperature } = this.state;
     return (
-      <div className="main-view">
+      <div className="main-view component">
         <LocationWithDate city={city} date={date}/>
         <NumberDisplaying
           number={temperature.day}
